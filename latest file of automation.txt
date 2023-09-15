@@ -1,0 +1,115 @@
+1. Arrays are fixed in size. if you program is not fixed in size you should go with
+   arraylist.
+2. Object is parent of all the clasees in java
+   object[] a = {4,2,4.5,apranay};
+
+3. to convert strange data type into number data type we use 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Implicitewate
+driver.manage().timeouts().implitcityWait(10,Timeunit.SECONDS);
+Explicit Wait
+Webdriverwait wait = new webdriverwait(driver,5);
+wait.until(expectedcondition.visibilityofElementlocated(By.linkText()))
+
+Text without sendkeys
+javascriptexecuter jse = (javascriptexecuter) driver;
+jse.executescript(argumensts[0].value='imac', Searchbox);
+
+
+window based popups
+WebdriverManager.ChromeDriver().setup();
+WebDriver driver = new ChromeDriver();
+driver.manager().Window().maximize();
+driver.get("URL");
+
+string parentWindow = driver.getWindowHandle ();
+driver.findElement(By.id("para1")).click();
+set<string> windows = driver.getwindowhandles();
+
+for (string win : windows) {
+driver.switchTo().window(win);
+   if (driver.getTitle().equals("Basic Web page Title")) {
+}
+}
+driver.switchTo().window(parentWindow);
+
+
+move to webelement 
+WebdriverManager.ChromeDriver().setup();
+WebDriver driver = new ChromeDriver();
+driver.manager().Window().maximize();
+driver.get("URL");
+
+Actions actions = new actions(driver);
+Webelemnt bolgs = driver.findElement(By.id("same"))
+actions.moveToElement(blogs).build().perform();
+
+
+WebdriverManager.ChromeDriver().srtup();
+WebDriver driver = new ChromeDriver();
+driver.manage().window().maximize();
+driver.get("URL");
+
+driver.findElement(By.xpath("//")).sendKeys(Pranay);
+
+jse.scriprexecuter("document.getElementById('inputemail").setAttribute('value','QAFox')")
+
+
+driver.manage().timeouts().implicitywait(10,SetTime.SECONDS)
+
+
+WebDriverWait wait = new webdriverwait(driver,5);
+wait.until(ExpectedCondition.VisibilityOfElement(By.linkText("")))
+
+jse.scriptexecuter("argument[0]",click();driver.findElement(By.xpath()))
+
+for (int i=1,i<=100;i++){
+    if(i%2==0) {
+system.out.println(i)
+
+int sum = 0;
+for (int i=1,i<=100;i++){
+sum = sum + i;
+}
+system.out.println("sum")
+
+
+File screenshotFile = ((Takescreenshot)driver).getScreenshotAs
+(outputType.File);
+Fileutils.copyFile(screenshotFile,new File())
+
+html:target/cucmber_html_reports"
+
+string parentwindow = driver.getwindowhandle();
+driver.findElementBy().click();
+set<string> windows = driver.getwindowhandles();
+
+for (string win : windows) {
+  if(driver.getTitle().equalsTo("")) {
+}
+}

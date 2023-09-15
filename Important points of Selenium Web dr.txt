@@ -1,0 +1,4 @@
+Important points of Selenium Web driver
+
+1. Searchcontext is the Parent of the webdriver interface
+2. syntax of relative xpath = //tagname[@attribute='value'] = //p[@id='para1']

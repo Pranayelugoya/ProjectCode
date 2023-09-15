@@ -1,0 +1,16 @@
+driver.manage().Timeouts().implicityWait(10,TimeUnit.Seconds);
+
+WebDriverwait wait = new WebDriverwait(driver,10);
+WebElement = Wait.until(Excpetdcondition.VisibilityofElementLocated(By.linktext(Facebook)));
+
+javascriptExecuter jse = (javascriptExecuter)driver;
+jse.excuterscript("arguments[0].value='iMac'", searchbox);
+
+
+
+
+33,37,46,71
+
+
+
+https://docs.google.com/spreadsheets/d/1U1AVDSrIwNwOg1wAwV8nDJvrZYmU-7J__1LxkU_gmWQ/edit?pli=1#gid=0

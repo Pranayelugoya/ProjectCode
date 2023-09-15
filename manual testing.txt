@@ -1,0 +1,20 @@
+1. What is latent defect?
+
+A: A latent defect is a hidden defect in an application or software which cannot be identified by a user. However, this will not cause any failure to the application because the conditions will never be met.
+
+
+
+Explain what is “Test Plan Driven” or “Key Word Driven” method of testing?
+This technique uses the actual test case document developed by testers using a spreadsheet containing special “key Words”. The key words control the processing.
+
+
+
+What is Fuzz testing and when it is used?
+Fuzz testing is used to detect security loopholes and coding errors in software. In this technique, random data is added to the system in an attempt to crash the system. If vulnerability persists, a tool called fuzz tester is used to determine potential causes. This technique is more useful for bigger projects but only detects a major fault
+
+
+
+Masked defect: It is an existing defect that has not caused a failure because another defect has prevented that part of the code from being executed
+
+
+What is Test Coverage? Test coverage is the method used to measure the percentage of test cases covering the entire application code
